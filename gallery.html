@@ -47,12 +47,23 @@
 
             <div class="collapse navbar-collapse" id="navMenu">
                 <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
-                    <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#home" data-i18n="nav.home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#services"
+                            data-i18n="nav.services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gallery.html"
+                            data-i18n="nav.gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact"
+                            data-i18n="nav.contact">Contact</a></li>
                     <li class="nav-item ms-lg-2">
-                        <a class="btn btn-cta-nav" href="index.html#booking">Book Now</a>
+                        <a class="btn btn-cta-nav" href="index.html#booking" data-i18n="nav.book">Book Now</a>
+                    </li>
+                    <li class="nav-item ms-lg-2">
+                        <button class="lang-switch" type="button" aria-label="Switch Language">
+                            <i class="fa-solid fa-globe"></i>
+                            <span class="lang-label" data-lang="en">EN</span>
+                            <span class="lang-divider">|</span>
+                            <span class="lang-label active" data-lang="od">ଓଡ଼ିଆ</span>
+                        </button>
                     </li>
                 </ul>
             </div>
@@ -63,21 +74,23 @@
     <header class="gallery-hero">
         <div class="hero-overlay"></div>
         <div class="container position-relative z-2 text-center">
-            <span class="hero-badge">
+            <span class="hero-badge" data-i18n="gallerypage.badge">
                 <i class="fa-solid fa-image"></i> PHOTO GALLERY
             </span>
-            <h1 class="hero-title">Our Work Gallery</h1>
-            <p class="hero-subtitle mx-auto">
+            <h1 class="hero-title" data-i18n="gallerypage.title">Our Work Gallery</h1>
+            <p class="hero-subtitle mx-auto" data-i18n="gallerypage.subtitle">
                 Browse our complete collection of service projects, vehicles, and happy moments
             </p>
 
             <!-- Filter Buttons -->
             <div class="gallery-filters mt-4">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="barat">Barat Cars</button>
-                <button class="filter-btn" data-filter="transport">Transport</button>
-                <button class="filter-btn" data-filter="cleaning">Cleaning</button>
-                <button class="filter-btn" data-filter="team">Team</button>
+                <button class="filter-btn active" data-filter="all" data-i18n="gallerypage.filter.all">All</button>
+                <button class="filter-btn" data-filter="barat" data-i18n="gallerypage.filter.barat">Barat Cars</button>
+                <button class="filter-btn" data-filter="transport"
+                    data-i18n="gallerypage.filter.transport">Transport</button>
+                <button class="filter-btn" data-filter="cleaning"
+                    data-i18n="gallerypage.filter.cleaning">Cleaning</button>
+                <button class="filter-btn" data-filter="team" data-i18n="gallerypage.filter.team">Team</button>
             </div>
         </div>
     </header>
@@ -92,7 +105,8 @@
                     <div class="gallery-page-item">
                         <img src="images/generated-1772729708634.png" alt="Royal Barat Car" class="img-fluid" />
                         <div class="gallery-overlay">
-                            <span class="gallery-label"><i class="fa-solid fa-car me-1"></i> Royal Barat Car — Night
+                            <span class="gallery-label" data-i18n="gallerypage.label1"><i
+                                    class="fa-solid fa-car me-1"></i> Royal Barat Car — Night
                                 Ceremony</span>
                         </div>
                     </div>
@@ -103,7 +117,8 @@
                     <div class="gallery-page-item">
                         <img src="images/generated-1772729717929.png" alt="Cesspool Service" class="img-fluid" />
                         <div class="gallery-overlay">
-                            <span class="gallery-label"><i class="fa-solid fa-droplet me-1"></i> Cesspool Service in
+                            <span class="gallery-label" data-i18n="gallerypage.label2"><i
+                                    class="fa-solid fa-droplet me-1"></i> Cesspool Service in
                                 Action</span>
                         </div>
                     </div>
@@ -114,7 +129,8 @@
                     <div class="gallery-page-item">
                         <img src="images/generated-1772729725577.png" alt="Vehicle Transport" class="img-fluid" />
                         <div class="gallery-overlay">
-                            <span class="gallery-label"><i class="fa-solid fa-truck me-1"></i> Vehicle Transport
+                            <span class="gallery-label" data-i18n="gallerypage.label3"><i
+                                    class="fa-solid fa-truck me-1"></i> Vehicle Transport
                                 Fleet</span>
                         </div>
                     </div>
@@ -125,7 +141,8 @@
                     <div class="gallery-page-item">
                         <img src="images/generated-1772729756139.png" alt="Toilet Tank" class="img-fluid" />
                         <div class="gallery-overlay">
-                            <span class="gallery-label"><i class="fa-solid fa-gear me-1"></i> Toilet Tank
+                            <span class="gallery-label" data-i18n="gallerypage.label4"><i
+                                    class="fa-solid fa-gear me-1"></i> Toilet Tank
                                 Maintenance</span>
                         </div>
                     </div>
@@ -136,7 +153,8 @@
                     <div class="gallery-page-item">
                         <img src="images/generated-1772729766097.png" alt="Barat Procession" class="img-fluid" />
                         <div class="gallery-overlay">
-                            <span class="gallery-label"><i class="fa-solid fa-car me-1"></i> Barat Wedding
+                            <span class="gallery-label" data-i18n="gallerypage.label5"><i
+                                    class="fa-solid fa-car me-1"></i> Barat Wedding
                                 Procession</span>
                         </div>
                     </div>
@@ -146,7 +164,8 @@
                     <div class="gallery-page-item">
                         <img src="images/generated-1772729774028.png" alt="Professional Team" class="img-fluid" />
                         <div class="gallery-overlay">
-                            <span class="gallery-label"><i class="fa-solid fa-users me-1"></i> Our Professional
+                            <span class="gallery-label" data-i18n="gallerypage.label6"><i
+                                    class="fa-solid fa-users me-1"></i> Our Professional
                                 Team</span>
                         </div>
                     </div>
@@ -157,7 +176,8 @@
                     <div class="gallery-page-item">
                         <img src="images/generated-1772729809768.png" alt="Car Transport" class="img-fluid" />
                         <div class="gallery-overlay">
-                            <span class="gallery-label"><i class="fa-solid fa-truck-ramp-box me-1"></i> Car Transport
+                            <span class="gallery-label" data-i18n="gallerypage.label7"><i
+                                    class="fa-solid fa-truck-ramp-box me-1"></i> Car Transport
                                 Logistics</span>
                         </div>
                     </div>
@@ -168,7 +188,8 @@
                     <div class="gallery-page-item">
                         <img src="images/generated-1772729821313.png" alt="Happy Client" class="img-fluid" />
                         <div class="gallery-overlay">
-                            <span class="gallery-label"><i class="fa-solid fa-heart me-1"></i> Happy Client
+                            <span class="gallery-label" data-i18n="gallerypage.label8"><i
+                                    class="fa-solid fa-heart me-1"></i> Happy Client
                                 Moments</span>
                         </div>
                     </div>
@@ -178,7 +199,8 @@
                     <div class="gallery-page-item">
                         <img src="images/generated-1772729829435.png" alt="Equipment" class="img-fluid" />
                         <div class="gallery-overlay">
-                            <span class="gallery-label"><i class="fa-solid fa-wrench me-1"></i> Our Modern
+                            <span class="gallery-label" data-i18n="gallerypage.label9"><i
+                                    class="fa-solid fa-wrench me-1"></i> Our Modern
                                 Equipment</span>
                         </div>
                     </div>
@@ -191,13 +213,14 @@
     <!-- ===================== CTA BANNER ===================== -->
     <section class="cta-banner">
         <div class="container text-center">
-            <h2 class="cta-title">Ready to Book a Service?</h2>
-            <p class="cta-subtitle">Contact us today for a free quote and hassle-free booking experience.</p>
+            <h2 class="cta-title" data-i18n="gallerypage.cta.title">Ready to Book a Service?</h2>
+            <p class="cta-subtitle" data-i18n="gallerypage.cta.subtitle">Contact us today for a free quote and
+                hassle-free booking experience.</p>
             <div class="d-flex flex-wrap gap-3 justify-content-center">
-                <a href="index.html#booking" class="btn btn-hero-primary btn-lg">
+                <a href="index.html#booking" class="btn btn-hero-primary btn-lg" data-i18n="gallerypage.cta.book">
                     <i class="fa-solid fa-calendar-check me-2"></i>Book Now
                 </a>
-                <a href="index.html#contact" class="btn btn-hero-outline btn-lg">
+                <a href="index.html#contact" class="btn btn-hero-outline btn-lg" data-i18n="gallerypage.cta.contact">
                     <i class="fa-solid fa-phone me-2"></i>Contact Us
                 </a>
             </div>
@@ -213,7 +236,7 @@
                         <span class="logo-icon logo-icon-sm">K</span>
                         <span class="footer-brand">Khusiyal Services</span>
                     </div>
-                    <p class="footer-desc">
+                    <p class="footer-desc" data-i18n="footer.desc">
                         Your trusted partner for vehicle and cleaning services. Serving communities with dedication and
                         care across Uttar Pradesh.
                     </p>
@@ -226,29 +249,29 @@
                 </div>
 
                 <div class="col-6 col-lg-2">
-                    <h6 class="footer-heading">Quick Links</h6>
+                    <h6 class="footer-heading" data-i18n="footer.quicklinks">Quick Links</h6>
                     <ul class="footer-links">
-                        <li><a href="index.html#home">Home</a></li>
-                        <li><a href="index.html#services">Services</a></li>
-                        <li><a href="index.html#about">About Us</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="index.html#home" data-i18n="footer.home">Home</a></li>
+                        <li><a href="index.html#services" data-i18n="footer.services">Services</a></li>
+                        <li><a href="index.html#about" data-i18n="footer.about">About Us</a></li>
+                        <li><a href="gallery.html" data-i18n="footer.gallery">Gallery</a></li>
+                        <li><a href="index.html#contact" data-i18n="footer.contact">Contact</a></li>
                     </ul>
                 </div>
 
                 <div class="col-6 col-lg-3">
-                    <h6 class="footer-heading">Our Services</h6>
+                    <h6 class="footer-heading" data-i18n="footer.ourservices">Our Services</h6>
                     <ul class="footer-links">
-                        <li><a href="index.html#services">Barat Car</a></li>
-                        <li><a href="index.html#services">Vehicle Rental</a></li>
-                        <li><a href="index.html#services">Cesspool Cleaning</a></li>
-                        <li><a href="index.html#services">Toilet Tank</a></li>
-                        <li><a href="index.html#services">Car Transport</a></li>
+                        <li><a href="index.html#services" data-i18n="footer.barat">Barat Car</a></li>
+                        <li><a href="index.html#services" data-i18n="footer.rental">Vehicle Rental</a></li>
+                        <li><a href="index.html#services" data-i18n="footer.cesspool">Cesspool Cleaning</a></li>
+                        <li><a href="index.html#services" data-i18n="footer.toilet">Toilet Tank</a></li>
+                        <li><a href="index.html#services" data-i18n="footer.car">Car Transport</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3">
-                    <h6 class="footer-heading">Contact Info</h6>
+                    <h6 class="footer-heading" data-i18n="footer.contactinfo">Contact Info</h6>
                     <ul class="footer-links footer-contact">
                         <li><i class="fa-solid fa-phone me-2"></i>+91 98765 43210</li>
                         <li><i class="fa-solid fa-envelope me-2"></i>info@khusiyalservices.com</li>
@@ -260,8 +283,10 @@
             <hr class="footer-divider" />
 
             <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2">
-                <p class="footer-copyright mb-0">&copy; 2026 Khusiyal Services. All rights reserved.</p>
-                <p class="footer-copyright mb-0">Made with <i class="fa-solid fa-heart text-pink"></i> in India</p>
+                <p class="footer-copyright mb-0" data-i18n="footer.copyright">&copy; 2026 Khusiyal Services. All rights
+                    reserved.</p>
+                <p class="footer-copyright mb-0"><span data-i18n="footer.made">Made with</span> <i
+                        class="fa-solid fa-heart text-pink"></i> <span data-i18n="footer.madein">in India</span></p>
             </div>
         </div>
     </footer>
@@ -278,6 +303,7 @@
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
     <!-- Custom JS -->
+    <script src="js/i18n.js"></script>
     <script src="js/script.js"></script>
 </body>
 
