@@ -351,7 +351,7 @@ const translations = {
 (function () {
     'use strict';
 
-    const STORAGE_KEY = 'khusiyal-lang';
+    const STORAGE_KEY = 'khusiyal-lang-v2';
 
     function getStoredLang() {
         try {
