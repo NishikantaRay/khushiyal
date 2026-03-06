@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Khusiyal Services Gallery — Browse our work: Barat Cars, Vehicle Transport, Cleaning Services and more." />
+    <title>Gallery — Khusiyal Services</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- FontAwesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!-- AOS – Animate on Scroll -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- ===================== NAVBAR ===================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <span class="logo-icon">K</span>
+                <span class="logo-text">
+                    <span class="logo-primary">KHUSHIYAL</span>
+                    <span class="logo-secondary">SERVICES</span>
+                </span>
+            </a>
+
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+                    <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                    <li class="nav-item ms-lg-2">
+                        <a class="btn btn-cta-nav" href="index.html#booking">Book Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===================== GALLERY HERO ===================== -->
+    <header class="gallery-hero">
+        <div class="hero-overlay"></div>
+        <div class="container position-relative z-2 text-center">
+            <span class="hero-badge">
+                <i class="fa-solid fa-image"></i> PHOTO GALLERY
+            </span>
+            <h1 class="hero-title">Our Work Gallery</h1>
+            <p class="hero-subtitle mx-auto">
+                Browse our complete collection of service projects, vehicles, and happy moments
+            </p>
+
+            <!-- Filter Buttons -->
+            <div class="gallery-filters mt-4">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="barat">Barat Cars</button>
+                <button class="filter-btn" data-filter="transport">Transport</button>
+                <button class="filter-btn" data-filter="cleaning">Cleaning</button>
+                <button class="filter-btn" data-filter="team">Team</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===================== GALLERY GRID ===================== -->
+    <section class="gallery-page-grid section-padding">
+        <div class="container">
+            <div class="row g-4" id="galleryGrid">
+
+                <!-- Row 1 -->
+                <div class="col-sm-6 col-lg-4 gallery-col" data-category="barat" data-aos="fade-up">
+                    <div class="gallery-page-item">
+                        <img src="images/generated-1772729708634.png" alt="Royal Barat Car" class="img-fluid" />
+                        <div class="gallery-overlay">
+                            <span class="gallery-label"><i class="fa-solid fa-car me-1"></i> Royal Barat Car — Night
+                                Ceremony</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4 gallery-col" data-category="cleaning" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <div class="gallery-page-item">
+                        <img src="images/generated-1772729717929.png" alt="Cesspool Service" class="img-fluid" />
+                        <div class="gallery-overlay">
+                            <span class="gallery-label"><i class="fa-solid fa-droplet me-1"></i> Cesspool Service in
+                                Action</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4 gallery-col" data-category="transport" data-aos="fade-up"
+                    data-aos-delay="200">
+                    <div class="gallery-page-item">
+                        <img src="images/generated-1772729725577.png" alt="Vehicle Transport" class="img-fluid" />
+                        <div class="gallery-overlay">
+                            <span class="gallery-label"><i class="fa-solid fa-truck me-1"></i> Vehicle Transport
+                                Fleet</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="col-sm-6 col-lg-4 gallery-col" data-category="cleaning" data-aos="fade-up">
+                    <div class="gallery-page-item">
+                        <img src="images/generated-1772729756139.png" alt="Toilet Tank" class="img-fluid" />
+                        <div class="gallery-overlay">
+                            <span class="gallery-label"><i class="fa-solid fa-gear me-1"></i> Toilet Tank
+                                Maintenance</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4 gallery-col" data-category="barat" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <div class="gallery-page-item">
+                        <img src="images/generated-1772729766097.png" alt="Barat Procession" class="img-fluid" />
+                        <div class="gallery-overlay">
+                            <span class="gallery-label"><i class="fa-solid fa-car me-1"></i> Barat Wedding
+                                Procession</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4 gallery-col" data-category="team" data-aos="fade-up" data-aos-delay="200">
+                    <div class="gallery-page-item">
+                        <img src="images/generated-1772729774028.png" alt="Professional Team" class="img-fluid" />
+                        <div class="gallery-overlay">
+                            <span class="gallery-label"><i class="fa-solid fa-users me-1"></i> Our Professional
+                                Team</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="col-sm-6 col-lg-4 gallery-col" data-category="transport" data-aos="fade-up">
+                    <div class="gallery-page-item">
+                        <img src="images/generated-1772729809768.png" alt="Car Transport" class="img-fluid" />
+                        <div class="gallery-overlay">
+                            <span class="gallery-label"><i class="fa-solid fa-truck-ramp-box me-1"></i> Car Transport
+                                Logistics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4 gallery-col" data-category="barat" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <div class="gallery-page-item">
+                        <img src="images/generated-1772729821313.png" alt="Happy Client" class="img-fluid" />
+                        <div class="gallery-overlay">
+                            <span class="gallery-label"><i class="fa-solid fa-heart me-1"></i> Happy Client
+                                Moments</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4 gallery-col" data-category="team" data-aos="fade-up" data-aos-delay="200">
+                    <div class="gallery-page-item">
+                        <img src="images/generated-1772729829435.png" alt="Equipment" class="img-fluid" />
+                        <div class="gallery-overlay">
+                            <span class="gallery-label"><i class="fa-solid fa-wrench me-1"></i> Our Modern
+                                Equipment</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CTA BANNER ===================== -->
+    <section class="cta-banner">
+        <div class="container text-center">
+            <h2 class="cta-title">Ready to Book a Service?</h2>
+            <p class="cta-subtitle">Contact us today for a free quote and hassle-free booking experience.</p>
+            <div class="d-flex flex-wrap gap-3 justify-content-center">
+                <a href="index.html#booking" class="btn btn-hero-primary btn-lg">
+                    <i class="fa-solid fa-calendar-check me-2"></i>Book Now
+                </a>
+                <a href="index.html#contact" class="btn btn-hero-outline btn-lg">
+                    <i class="fa-solid fa-phone me-2"></i>Contact Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <span class="logo-icon logo-icon-sm">K</span>
+                        <span class="footer-brand">Khusiyal Services</span>
+                    </div>
+                    <p class="footer-desc">
+                        Your trusted partner for vehicle and cleaning services. Serving communities with dedication and
+                        care across Uttar Pradesh.
+                    </p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-2">
+                    <h6 class="footer-heading">Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <h6 class="footer-heading">Our Services</h6>
+                    <ul class="footer-links">
+                        <li><a href="index.html#services">Barat Car</a></li>
+                        <li><a href="index.html#services">Vehicle Rental</a></li>
+                        <li><a href="index.html#services">Cesspool Cleaning</a></li>
+                        <li><a href="index.html#services">Toilet Tank</a></li>
+                        <li><a href="index.html#services">Car Transport</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3">
+                    <h6 class="footer-heading">Contact Info</h6>
+                    <ul class="footer-links footer-contact">
+                        <li><i class="fa-solid fa-phone me-2"></i>+91 98765 43210</li>
+                        <li><i class="fa-solid fa-envelope me-2"></i>info@khusiyalservices.com</li>
+                        <li><i class="fa-solid fa-location-dot me-2"></i>Uttar Pradesh, India</li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="footer-divider" />
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2">
+                <p class="footer-copyright mb-0">&copy; 2026 Khusiyal Services. All rights reserved.</p>
+                <p class="footer-copyright mb-0">Made with <i class="fa-solid fa-heart text-pink"></i> in India</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="btn btn-back-to-top" id="backToTop" title="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
