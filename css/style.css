@@ -87,51 +87,21 @@ img {
 
 
 /* ---------- Logo ---------- */
-.logo-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 12px;
-    background: var(--grad-brand);
-    font-family: var(--ff-heading);
-    font-weight: 800;
-    font-size: 22px;
-    color: #fff;
+.navbar-logo {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+    transition: var(--transition);
 }
 
-.logo-icon-sm {
-    width: 36px;
-    height: 36px;
-    font-size: 18px;
-    border-radius: 10px;
+#mainNav.scrolled .navbar-logo {
+    height: 38px;
 }
 
-.logo-text {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.15;
-}
-
-.logo-primary {
-    font-family: var(--ff-heading);
-    font-weight: 800;
-    font-size: 17px;
-    background: linear-gradient(90deg, #fff 0%, #ffffffcc 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    letter-spacing: 1px;
-}
-
-.logo-secondary {
-    font-family: var(--ff-body);
-    font-weight: 700;
-    font-size: 9px;
-    color: #fff;
-    letter-spacing: 5px;
-    opacity: .85;
+.footer-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
 }
 
 
@@ -271,41 +241,14 @@ button.lang-switch i {
 
 /* ---------- Mobile Navbar ---------- */
 @media (max-width: 991.98px) {
-    .navbar-brand .logo-icon {
-        width: 36px;
-        height: 36px;
-        font-size: 18px;
-        border-radius: 10px;
-        flex-shrink: 0;
-    }
-
-    .navbar-brand .logo-primary {
-        font-size: 14px;
-        letter-spacing: 0.5px;
-    }
-
-    .navbar-brand .logo-secondary {
-        font-size: 7px;
-        letter-spacing: 2px;
+    .navbar-logo {
+        height: 38px;
     }
 }
 
 @media (max-width: 575.98px) {
-    .navbar-brand .logo-primary {
-        font-size: 13px;
-        letter-spacing: 0;
-    }
-
-    .navbar-brand .logo-secondary {
-        font-size: 6.5px;
-        letter-spacing: 1.5px;
-    }
-
-    .navbar-brand .logo-icon {
-        width: 34px;
-        height: 34px;
-        font-size: 17px;
-        border-radius: 9px;
+    .navbar-logo {
+        height: 32px;
     }
 }
 

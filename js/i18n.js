@@ -113,7 +113,7 @@ const translations = {
         "contact.phone": "Phone",
         "contact.email": "Email",
         "contact.location": "Location",
-        "contact.location.value": "Uttar Pradesh, India",
+        "contact.location.value": "Kuakhia, Jajpur 755009, Odisha, India",
         "contact.hours": "Working Hours",
         "contact.hours.value": "24/7 — Always Available",
         "contact.form.title": "Send us a Message",
@@ -124,7 +124,7 @@ const translations = {
         "contact.form.submit": "Send Message",
 
         // Footer
-        "footer.desc": "Your trusted partner for vehicle and cleaning services. Serving communities with dedication and care across Uttar Pradesh.",
+        "footer.desc": "Your trusted partner for vehicle and cleaning services. Serving communities with dedication and care across Odisha.",
         "footer.quicklinks": "Quick Links",
         "footer.ourservices": "Our Services",
         "footer.contactinfo": "Contact Info",
@@ -285,7 +285,7 @@ const translations = {
         "contact.phone": "ଫୋନ୍",
         "contact.email": "ଇମେଲ୍",
         "contact.location": "ସ୍ଥାନ",
-        "contact.location.value": "ଉତ୍ତର ପ୍ରଦେଶ, ଭାରତ",
+        "contact.location.value": "କୁଆଖିଆ, ଯାଜପୁର ୭୫୫୦୦୯, ଓଡ଼ିଶା, ଭାରତ",
         "contact.hours": "କାର୍ୟ ସମୟ",
         "contact.hours.value": "୨୪/୭ — ସର୍ବଦା ଉପଲବ୍ଧ",
         "contact.form.title": "ଆମକୁ ବାର୍ତ୍ତା ପଠାନ୍ତୁ",
@@ -296,7 +296,7 @@ const translations = {
         "contact.form.submit": "ବାର୍ତ୍ତା ପଠାନ୍ତୁ",
 
         // Footer
-        "footer.desc": "ଯାନ ଏବଂ ସଫାଇ ସେବା ପାଇଁ ଆପଣଙ୍କ ବିଶ୍ୱସ୍ତ ସାଥୀ। ଉତ୍ତର ପ୍ରଦେଶ ସାରାରେ ସମର୍ପଣ ଏବଂ ଯତ୍ନ ସହିତ ସମୁଦାୟର ସେବା।",
+        "footer.desc": "ଯାନ ଏବଂ ସଫାଇ ସେବା ପାଇଁ ଆପଣଙ୍କ ବିଶ୍ୱସ୍ତ ସାଥୀ। ଓଡ଼ିଶା ସାରାରେ ସମର୍ପଣ ଏବଂ ଯତ୍ନ ସହିତ ସମୁଦାୟର ସେବା।",
         "footer.quicklinks": "ଦ୍ରୁତ ଲିଙ୍କ୍",
         "footer.ourservices": "ଆମର ସେବା",
         "footer.contactinfo": "ଯୋଗାଯୋଗ ତଥ୍ୟ",
