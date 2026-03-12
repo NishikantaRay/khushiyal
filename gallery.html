@@ -5,8 +5,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-        content="Khusiyal Services Gallery — Browse our work: Barat Cars, Vehicle Transport, Cleaning Services and more." />
+        content="Khusiyal Services Gallery — Browse our work: Barat Cars, Vehicle Transport, Cleaning Services and more in Jajpur, Odisha." />
+    <meta name="keywords"
+        content="Khusiyal Services Gallery, Barat Car Photos, Vehicle Transport, Cesspool Cleaning, Jajpur, Odisha" />
+    <meta name="author" content="Khusiyal Services" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#4B0082" />
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Gallery — Khusiyal Services" />
+    <meta property="og:description"
+        content="Browse our gallery of Barat Cars, Vehicle Transport, and Cleaning Services in Jajpur, Odisha." />
+    <meta property="og:image" content="img/logo/logo.png" />
+    <meta property="og:url" content="https://khusiyalservices.com/gallery.html" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gallery — Khusiyal Services" />
+    <meta name="twitter:description" content="Browse our gallery of services in Jajpur, Odisha." />
+    <meta name="twitter:image" content="img/logo/logo.png" />
+
     <title>Gallery — Khusiyal Services</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/logo/logo.png" />
+    <link rel="apple-touch-icon" href="img/logo/logo.png" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,6 +52,14 @@
 </head>
 
 <body>
+
+    <!-- ===================== LOADER ===================== -->
+    <div id="pageLoader">
+        <div class="loader-content">
+            <img src="img/logo/logo.png" alt="Khushiyal Services" class="loader-logo" />
+            <div class="loader-spinner"></div>
+        </div>
+    </div>
 
     <!-- ===================== NAVBAR ===================== -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -302,6 +334,14 @@
     <!-- Custom JS -->
     <script src="js/i18n.js"></script>
     <script src="js/script.js"></script>
-</body>
 
-</html>
+    <!-- Loader Dismissal -->
+    <script>
+        window.addEventListener('load', function () {
+            var loader = document.getElementById('pageLoader');
+            if (loader) {
+                setTimeout(function () { loader.classList.add('loaded'); }, 600);
+                setTimeout(function () { loader.style.display = 'none'; }, 1100);
+            }
+        });
+    </script>
